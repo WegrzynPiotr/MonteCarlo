@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  .green{
+    background-color: aquamarine !important;
+  }
+  .won{
+    display: flex;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
+  }
+
+  .stat-number{
+    margin-right: 10px;
+    padding:5px 10px
+  }
+  
+  .numbers {
+    display: grid;
+    grid-template-columns: repeat(7,50px);
+    gap: 5px;
+   justify-content: center;
+  }
+  
+  .number {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+  }
+  
+  .number.selected {
+    background-color: lightblue;
+  }
+  
+  .selected-numbers {
+    margin-top: 30px;
+  }
+  
+  #selected-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #result {
+    font-weight: bold;
+  }
+  #check{
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: rgb(12, 200, 59);
+    color:#fff;
+  }
+  .rounded{
+    border-radius: 5px;
+  }
+  
